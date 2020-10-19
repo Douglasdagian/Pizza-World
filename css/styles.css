@@ -49,18 +49,21 @@ nav ul li a{
     margin:5px;
     background-image: url("/image/pexels-rodolfo-clix-1596884.jpg");
     color: white;
+    background-size: cover;
 }
 .order{
     background-image: url("/image/pexels-norma-mortenson-4393443.jpg");
     padding: 20px;
     margin:5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-size: cover;
 }
 .about {
     padding: 20px;
     margin:5px;
     background-image: url("/image/pexels-quintin-gellar-2327834.jpg");
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-size: cover;
 }
 .contact {
     padding: 20px;
