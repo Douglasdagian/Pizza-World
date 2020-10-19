@@ -51,7 +51,7 @@ nav ul li a{
     color: white;
     background-size: cover;
 }
-.order{
+#order{
     background-image: url("/image/pexels-norma-mortenson-4393443.jpg");
     padding: 20px;
     margin:5px;
@@ -67,22 +67,17 @@ nav ul li a{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-size: cover;
 }
-.contact {
+#contact-us {
     padding: 20px;
     margin:5px;
     color: black;
     background-image: url("/image/pexels-jessica-gaudioso-4400140.jpg");  
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-size: cover;
+    position: bottom;
 }
 #home {
     margin-top: 100px;
-}
-#order {
-    margin-top: 10px;
-    padding: 20px;
-    margin: 6px;
-    height: 150px;
 }
 .card img {
     height: 200px;
