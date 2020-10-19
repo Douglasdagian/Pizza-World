@@ -12,4 +12,4 @@ BOOTSTRAP
 
 ## Instructions
 This project can be clone in a local machine
-https://github.com/Douglasdagian/My-Portfolio
+https://github.com/Douglasdagian/Delani-Studio.git
