@@ -55,12 +55,14 @@ nav ul li a{
     background-image: url("/image/pexels-norma-mortenson-4393443.jpg");
     padding: 20px;
     margin:5px;
+    color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-size: cover;
 }
 .about {
     padding: 20px;
     margin:5px;
+    color: black;
     background-image: url("/image/pexels-quintin-gellar-2327834.jpg");
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-size: cover;
@@ -68,6 +70,7 @@ nav ul li a{
 .contact {
     padding: 20px;
     margin:5px;
+    color: black;
     background-image: url("/image/pexels-jessica-gaudioso-4400140.jpg");  
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-size: cover;
@@ -182,6 +185,27 @@ nav ul li a{
     box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
     transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
+  .delivery{
+    display: none;
+  }
+
+
+  .text-center13{
+    display: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .text-center12{
+    color: blue;
+  }
+
+
+  #orderre{
+    display: none;
+  }
+
+
   .wrapper .icon:hover .tooltip{
     top: -70px;
     opacity: 1;
@@ -224,4 +248,42 @@ nav ul li a{
   .wrapper .youtube:hover .tooltip,
   .wrapper .youtube:hover .tooltip:before{
     background: hsl(4, 100%, 40%);
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  #about-us{
+    background-image: url("/image/pexels-quintin-gellar-2327834.jpg");
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(8, 10,20, 0.5);
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .card:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
   }
