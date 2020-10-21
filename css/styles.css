@@ -47,12 +47,12 @@ nav ul li a{
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px;
     margin:5px;
-    background-image: url("/image/pexels-rodolfo-clix-1596884.jpg");
+    background-image: url("./image/pexels-rodolfo-clix-1596884.jpg");
     color: white;
     background-size: cover;
 }
 #order{
-    background-image: url("/image/pexels-norma-mortenson-4393443.jpg");
+    background-image: url("./image/pexels-norma-mortenson-4393443.jpg");
     padding: 20px;
     margin:5px;
     color: black;
@@ -63,7 +63,7 @@ nav ul li a{
     padding: 20px;
     margin:5px;
     color: black;
-    background-image: url("/image/pexels-quintin-gellar-2327834.jpg");
+    background-image: url("./image/pexels-quintin-gellar-2327834.jpg");
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-size: cover;
 }
@@ -71,7 +71,7 @@ nav ul li a{
     padding: 20px;
     margin:5px;
     color: black;
-    background-image: url("/image/pexels-jessica-gaudioso-4400140.jpg");  
+    background-image: url("./image/pexels-jessica-gaudioso-4400140.jpg");  
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-size: cover;
     position: bottom;
@@ -179,8 +179,8 @@ nav ul li a{
     pointer-events: none;
     box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
     transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-
-  .text-center13{
+  }
+  .text-center13 {
     display: none;
     color: white;
     font-size: 20px;
