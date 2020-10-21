@@ -154,7 +154,7 @@ function deliveryOptions() {
 
     $(".totalPick").text(checkoutTotal);
 
-    var checkoutTotalDel = checkoutTotal + 200;
+    var checkoutTotalDel = checkoutTotal + 150;
 
     $(".totalDel").text(checkoutTotalDel);
 
